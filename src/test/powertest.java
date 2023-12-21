@@ -6,21 +6,21 @@ import static org.junit.Assert.assertEquals;
 public class PowerTest {
     @Test
     public void testOneRaisedToOneIsOne() {
-        assertEquals(1, PowerFinder.calculatePower(1, 1));
+        Assertions.assertEquals(1, PowerFinder.calculatePower(1, 1));
     }
 
     @Test
     public void testTwoRaisedToOneIsTwo() {
-        assertEquals(2, PowerFinder.calculatePower(2, 1));
+        Assertions.assertEquals(2, PowerFinder.calculatePower(2, 1));
     }
 
     @Test
     public void testTwoPowerTwoIsFour() {
-        assertEquals(4, PowerFinder.calculatePower(2, 2));
+        Assertions.assertEquals(4, PowerFinder.calculatePower(2, 2));
     }
 
     @Test
     public void testPowerOfThreeAndTwoIsNine() {
-        assertEquals(9, PowerFinder.calculatePower(3, 2));
+        Assertions.assertEquals(9, PowerFinder.calculatePower(3, 2));
     }
 }
